@@ -9,8 +9,8 @@ int main() {
     // Nível Novato - Movimentação das Peças
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
 
-    const int bi = 5, to = 5, ra = 8;
-    int i;
+    const int bi = 5, to = 5, ra = 8, ca = 2;
+    int i, fim = 1;
 
 
     // Implementação de Movimentação do Bispo
@@ -37,6 +37,14 @@ int main() {
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
+    printf("\nCavalo duas casas para baixo e uma a esquerda:\n");
+    while (fim--)
+    {
+        for(i = 1; i <= ca; i++){
+            printf("Baixo -> ");
+        }
+        printf("Esqueda\n");
+    }
 
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
